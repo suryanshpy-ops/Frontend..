@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Document</title>
+</head><h1> Job application</h1>
+<body> 
+    <form>
+    <label for="text1">Name:</label>
+    <br>
+    <input type="text" name ="text" id ="text1" placeholder="enter your name">
+    <br>
+    <label for="Email1">Email:</label>
+    <br>
+    <input type="text" name ="text" id ="Email1" placeholder="Enter a email">
+    <br>
+    <label for="phone1">Phone</label>
+    <br>
+    <input type="text" name="text" id ="phone1" placeholder="enter a phone number">
+    <br>
+    <label for ="file1">Resume:</label>
+    <input type="file" chossen the file="file1">
+    <br>
+    <label for="experience">Experience(years):</label>
+    <br>
+    <select name="experience" value="experience">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    </select>
+    <fieldset>
+        <legend>skills</legend>
+
+        <label for="checkbox1">HTML</label>
+        <br>
+        <input type="checkbox" name ="checkbox" id ="checkbox1">
+        <br>
+        <label for="checkbox2">CSS</label>
+        <br>
+        <input type="checkbox" name= "checkbox" id= "checkbox2">
+        <br>
+        <Label for="checkbox3">java script</Label>
+        <br>
+        <input type="checkbox" name= "checkbox" id ="checkbox3">
+    </fieldset>
+<label for="education">Highest Education:</label>
+<select name="education" value ="education">
+    <option value="High school">High school</option>
+    <option value="Secondary school">Secondary school</option>
+    <option value="B.tech">B.tech</option>
+    <option value="M.tech">M.tech</option>
+</select>
+<br>
+<fieldset>
+<legend>Availiabilty</legend>
+
+<label for="radio1">Full Time:</label>
+<input type="radio" name ="radio" id ="ava1">
+<br>
+<label for="ava1">Part Time:</label>
+<input type="radio" name ="radio" id= "ava1">
+    </fieldset>
+    <label for="textarea1">Additional  comments:</label>
+    <br>
+    <textarea name="textarea" id="textaraea1" cols="50" rows="2"></textarea>
+</form>
+</body>
+</html>
